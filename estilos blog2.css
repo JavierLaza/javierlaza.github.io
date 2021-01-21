@@ -1,0 +1,379 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+header{
+width:100%;
+height:300px;
+}
+.encabezado{
+	width:100%;
+	height:150px;
+	margin:20px auto;
+}
+
+body{
+	background:#FFFFFF;
+	width:100%;
+	max-width:1200px;
+	margin:0 auto 0 auto;
+}
+.main{
+		width:90%;
+	max-width:1200px;
+	margin:5% auto 2% auto;
+	height:2100px;
+	
+}
+
+.logo{
+	width:70%;
+	text-align:center;
+	display:block;
+	margin:auto;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}
+.menu_bar {
+	display:none;
+}
+.submenu{
+	width:100%;
+	height:100px;
+	list-style:none;
+	margin:40px auto 40px auto;
+	text-align:center;
+}
+.submenu li{
+	display:inline-block;
+	text-align:center;
+}
+.submenu li a{
+	padding:10 10;
+	display:inline-block;
+}
+li{
+	padding:2%;
+	margin:0 5;
+	font-size:13px;
+	text-align:center;
+	font-weight:600;
+	letter-spacing:1.5px;
+	word-spacing:4px;
+	font-family:"Century Gothic";
+}
+.cuadro{
+	padding:2%;
+	background:#FFFFFF;
+	width:95%;
+	margin:auto;
+	max-height:300px;
+	text-align:center;
+	line-height:30px;
+	border-width:thin;
+	border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+	border-style:inset;
+	border-color:#000;
+	min-height:100px;
+}
+.tabla{
+	width:95%;
+	margin:auto;
+}
+.relato{
+	text-decoration:none;
+	color:black;
+}
+.relato:hover{
+	text-transform:uppercase;
+}
+.relato:visited{
+	color:black;
+}
+.fotoblog{
+	width:56%;
+	border-radius:50%;
+	display:block;
+	margin:auto;
+}
+.post{
+	padding:20px;
+	margin:auto;
+	background:#FFFFFF;
+	width:95%;
+	max-height:800px;
+	line-height:30px;
+	text-align:left;
+}
+
+	
+footer{
+	background:black;
+	width:90%;
+	height:150px;
+	padding:5px 0 0 0;
+	margin:15px auto 0 auto;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+	
+}
+
+.pie{
+	line-height:30px;
+	text-align:center;
+	margin:20px 0 0 0;
+}
+
+.botón{
+text-decoration:none;
+}
+.botón:link{
+	color:#62675E;
+}
+.botón:visited{
+	color:#62675E;
+}
+.botón:hover{
+	color:white;
+	background:black;
+	-webkit-box-shadow:inset 0px 20px 5px #5c5c5c;
+-moz-box-shadow:inset 0px 20px 5px #5c5c5c;
+box-shadow:inset 0px 20px 5px #5c5c5c;
+	border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+	
+}
+
+
+.espacio200px{
+	height: 20%;
+}
+.espacio100px{
+	height: 10%;
+}
+.copy{
+	font-family:"Century Gothic";
+	font-size:12px;
+	color:white;
+	padding:2px 0;
+	font-weight:normal;
+}
+p{
+	font-family:"Century Gothic";
+	font-size:15px;
+	word-spacing:3px;
+	line-height:170%;
+	padding:1px;
+	margin:0 0 5px 0;
+}
+h1{
+	font-family:"Century Gothic";
+	font-weight:normal;
+	font-size:30px;
+	padding:10 0 40 0;
+}
+h3{
+	font-weight:normal;
+	font-size:18px;
+	margin:10 0 10 0;
+	font-family:"Century Gothic";
+	text-align:center;
+	margin:20 0 40 0;
+}	
+h4{
+	font-size:15px;
+	margin:10 0 40 0;
+	font-family:"Century Gothic";
+	text-align:left;
+}
+h6{
+	font-weight:normal;
+	font-size:15px;
+	font-family:"Century Gothic";	
+}
+.icon-home{
+	font-size:18px;
+}
+.icon-instagram{
+	font-size:18px;
+	color:white;
+}
+.instalogo{
+	padding:10px;
+}
+.icon-instagram:hover{
+	background: linear-gradient(#838181,#D5D0CF);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link{
+	text-decoration:none;
+	color:white;
+}
+.link:hover{
+	text-transform:uppercase;
+}
+.link:visited{
+	color:white;
+}
+.lista{
+	text-indent:20px;
+}
+hr{
+	margin:40px auto;
+	width:80%;
+	color:#717171;
+}
+
+
+@media screen and (max-width: 855px) {
+	body {
+		padding-top:80px;
+	}
+	
+	.encabezado{
+		display:none;
+	}
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:black;
+		opacity:0.7;
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color:white;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: left;
+		font-size: 40px;
+	}
+ 
+	header nav {
+		width: 40%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		background:white;
+		opacity:0.9;
+	}
+ 
+	.submenu li {
+		display: block;
+		text-align:left;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	.submenu li a {
+		display: block;
+	}
+	header{
+		height:80px;
+	}
+	h4{
+		font-size:15px;
+	}
+	h6{
+		font-size:13px;
+	}
+	.copy{
+		font-size:11px;
+		word-spacing:0px;
+	}
+	.icon-instagram{
+		font-size:16px;
+	}
+	footer{
+		width:100%;
+	}
+		
+	@media screen and (max-width: 500px) {
+	body {
+		padding-top:80px;
+	}
+	
+	.encabezado{
+		display:none;
+	}
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:black;
+		opacity:0.7;
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color:white;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: left;
+		font-size: 40px;
+	}
+ 
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		background:white;
+		opacity:0.9;
+	}
+ 
+	.submenu li {
+		display: block;
+		text-align:left;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	.submenu li a {
+		display: block;
+	}
+	
+	header{
+		height:20px;
+	}
+	h1,h4, h6, p{
+		text-align:center;
+	}
+	h1{
+		padding:5 0 0 0;
+	}
+	.cuadro, .post,{
+		width:85%;
+	}
+	.cuadro{
+			overflow-y:scroll;
+	}
+	.cuadro::-webkit-scrollbar{
+	display:none;
+	}
+	.espacio100px{
+		height:20px;
+	}
