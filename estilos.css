@@ -194,7 +194,7 @@ h6{
 		height:1300px;
 	}
 .encabezado{
-		height:100px;
+		display:none;
 	}
 
 .submenu-responsive{
@@ -217,7 +217,7 @@ h6{
 	display:none;
 }
 	header{
-		height:300px;
+		height:100px;
 	}
 	.post2{
 		display:none;
@@ -249,12 +249,9 @@ h6{
 	.main{
 		height:300px;
 	}
-	.encabezado{
-		height:80px;
-	}
 
 	header{
-		height:200px;
+		height:100px;
 	}
 	.insta{
 		display:none;
